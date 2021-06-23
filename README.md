@@ -24,7 +24,7 @@ N/A
 
 Here's a walkthrough of implemented user stories:
 
-![](Assignment-0.gif)
+![Assignment-0](https://github.com/smwright1/Tipster/blob/26a85ebc95f4ae5b4ebed11e450ef0fcb8c1c0f8/Assignment%200.gif)
 
 GIF created with [Kap](https://getkap.co/).
 

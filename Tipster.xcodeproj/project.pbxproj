@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		82BC0BC226828ABA0005D932 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC0BC126828ABA0005D932 /* AppDelegate.m */; };
 		82BC0BC526828ABA0005D932 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC0BC426828ABA0005D932 /* SceneDelegate.m */; };
-		82BC0BC826828ABA0005D932 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC0BC726828ABA0005D932 /* ViewController.m */; };
 		82BC0BCB26828ABA0005D932 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BC0BC926828ABA0005D932 /* Main.storyboard */; };
 		82BC0BCD26828ABB0005D932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BC0BCC26828ABB0005D932 /* Assets.xcassets */; };
 		82BC0BD026828ABB0005D932 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BC0BCE26828ABB0005D932 /* LaunchScreen.storyboard */; };
 		82BC0BD326828ABB0005D932 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC0BD226828ABB0005D932 /* main.m */; };
 		82BC0BDD26828ABB0005D932 /* TipsterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC0BDC26828ABB0005D932 /* TipsterTests.m */; };
 		82BC0BE826828ABB0005D932 /* TipsterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC0BE726828ABB0005D932 /* TipsterUITests.m */; };
+		82BC0BF72682B7B80005D932 /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BC0BF62682B7B80005D932 /* TipViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,6 @@
 		82BC0BC126828ABA0005D932 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		82BC0BC326828ABA0005D932 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		82BC0BC426828ABA0005D932 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		82BC0BC626828ABA0005D932 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		82BC0BC726828ABA0005D932 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		82BC0BCA26828ABA0005D932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82BC0BCC26828ABB0005D932 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82BC0BCF26828ABB0005D932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +52,8 @@
 		82BC0BE326828ABB0005D932 /* TipsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BC0BE726828ABB0005D932 /* TipsterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipsterUITests.m; sourceTree = "<group>"; };
 		82BC0BE926828ABB0005D932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BC0BF52682B7B80005D932 /* TipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		82BC0BF62682B7B80005D932 /* TipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +108,9 @@
 				82BC0BC126828ABA0005D932 /* AppDelegate.m */,
 				82BC0BC326828ABA0005D932 /* SceneDelegate.h */,
 				82BC0BC426828ABA0005D932 /* SceneDelegate.m */,
-				82BC0BC626828ABA0005D932 /* ViewController.h */,
-				82BC0BC726828ABA0005D932 /* ViewController.m */,
 				82BC0BC926828ABA0005D932 /* Main.storyboard */,
+				82BC0BF52682B7B80005D932 /* TipViewController.h */,
+				82BC0BF62682B7B80005D932 /* TipViewController.m */,
 				82BC0BCC26828ABB0005D932 /* Assets.xcassets */,
 				82BC0BCE26828ABB0005D932 /* LaunchScreen.storyboard */,
 				82BC0BD126828ABB0005D932 /* Info.plist */,
@@ -266,9 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82BC0BC826828ABA0005D932 /* ViewController.m in Sources */,
 				82BC0BC226828ABA0005D932 /* AppDelegate.m in Sources */,
 				82BC0BD326828ABB0005D932 /* main.m in Sources */,
+				82BC0BF72682B7B80005D932 /* TipViewController.m in Sources */,
 				82BC0BC526828ABA0005D932 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -30,7 +30,7 @@ GIF created with [Kap](https://getkap.co/).
 
 ## Notes
 
-Normally I excel in UI design, but because I spent a couple of hours figuring out an issue with synching my local repository with my remote repository, I didn't have as much time to implement the optional and additional features. On the next assignment, I will practice better time management.
+Normally I excel in UI design, but because I spent a couple of hours figuring out an issue with synching my local repository with my remote repository, I didn't have as much time to implement the optional and additional features. On the next assignment, I'll practice better time management.
 
 ## Credits
 
